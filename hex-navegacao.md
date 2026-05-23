@@ -109,9 +109,9 @@ Estabeleça rotas entre origem e destino.
 | Montaria             | 35 km | 30 km | 20 km | 10 km*** |
 | Galopando**          | 70 km | 50 km | 30 km | 10 km*** |
 
-- *Vantagem em testes*  
-- **Desvantagem em testes**  
-- ***Teste de desmaio da montaria (1d6)***
+- *Vantagem em testes
+- **Desvantagem em testes
+- ***Teste de desmaio da montaria (1d6)
 
 ---
 
