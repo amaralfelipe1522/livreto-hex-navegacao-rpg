@@ -148,11 +148,11 @@ Rolar `1d12`.
 ## 9. Acampamento
 
 ### 👁️ Vigia
-
+Função apenas em acampamentos.
 - Recupera apenas `1d3`
 - Grupo recupera `1d6`
-- **Ação:** Teste de SAB
-- **Falha:** Grupo é surpreendido
+- **Ação:** Teste de SAB ou INT para notar perigos
+- **Falha:** Grupo pode ser surpreendido.
 
 ---
 
