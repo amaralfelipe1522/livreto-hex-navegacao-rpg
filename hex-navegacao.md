@@ -116,7 +116,7 @@ Estabeleça rotas entre origem e destino.
 ---
 
 ## 5. Tempo Médio da Viagem
-Baseado nos passos 2–4.
+Baseado nos passos 2 e 4.
 
 ---
 
