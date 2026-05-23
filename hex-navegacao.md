@@ -86,17 +86,17 @@ Estabeleça rotas entre origem e destino.
 ### ⚠️ Características Extras (1d12)
 
 1. Abundante → Caça automática  
-2. Altitude Elevada → desvantagem + dano  
+2. Altitude Elevada → desvantagem  
 3. Magia Caótica  
 4. Água Poluída → envenenamento  
-5. Baixa Visibilidade → +2 CD  
+5. Baixa Visibilidade → +2 CD em todas as funções
 6. Caminho Confuso → +2 CD Navegação  
 7. Campo de Batalha → +1 CD + encontros extras  
 8. Estrada de Mercadores → vantagem + caravanas  
-9. Gases Venenosos → dano por turno  
+9. Gases Venenosos → 1d4 dano por HEX  
 10. Suga-vida → cura reduzida  
-11. Terreno Acidentado → dano por falha  
-12. Terreno Infértil → +3 CD coleta  
+11. Terreno Acidentado → 1d4 dano por falha  
+12. Terreno Infértil → +3 CD Coletor
 
 ---
 
