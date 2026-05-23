@@ -48,7 +48,7 @@ Define o caminho do grupo.
   - 3: Direita
 - **3 falhas no dia:**
   1. Continuar → Usar `1d6` direções
-  2. Tentar se orientar → permanece no HEX por um período, rola-se dado de encontro 2x.
+  2. Tentar se orientar → permanece no HEX por um período, rola-se dado de encontro 2x
 - **Ausência:** Navegação aleatória (`1d6`)
 
 ---
