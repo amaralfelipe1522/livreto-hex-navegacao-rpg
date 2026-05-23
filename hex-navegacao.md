@@ -152,7 +152,7 @@ Função apenas em acampamentos.
 - Recupera apenas `1d3`
 - Grupo recupera `1d6`
 - **Ação:** Teste de SAB ou INT para notar perigos
-- **Falha:** Grupo pode ser surpreendido.
+- **Falha:** Grupo pode ser surpreendido
 
 ---
 
