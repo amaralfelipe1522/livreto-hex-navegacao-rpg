@@ -33,6 +33,8 @@ Registra o mapa da região.
   - 4: Avistamento
   - 5: Vestígios
   - 6: Marcos
+  
+  Fique livre para usar uma tabela ou definir puramente com improviso os avistamentos, vestígios e marcos.
 - **Ausência:** Sem bônus por exploração prévia.
 
 ---
@@ -89,7 +91,7 @@ Estabeleça rotas entre origem e destino.
 
 1. Abundante → Caça automática  
 2. Altitude Elevada → desvantagem  
-3. Magia Caótica  
+3. Magia Caótica → Toda tentativa de magia pode gerar uma consequência, mesmo que apenas narrativa
 4. Água Poluída → envenenamento  
 5. Baixa Visibilidade → +2 CD em todas as funções
 6. Caminho Confuso → +2 CD Navegação  
@@ -151,7 +153,8 @@ A partir do HEX `azul` na Flor do Tempo (ponto de partida), defina o tipo de reg
 2. Cartógrafo  
 3. Batedor  
 4. Caçador/Coletor  
-5. Suporte  
+
+⚠️ Suporte a qualquer momento que for necessário
 
 ---
 
@@ -176,91 +179,170 @@ Função apenas em acampamentos.
 
 # 🌊 Sistema de Navegação Marítima
 
-## 1. Funções da Tripulação
+## 1. Definir as Funções da Tripulação
 
 ### 🧭 Navegador
-- Teste SAB/INT  
-- Falha → deriva (1d3)  
-- Falha grave → 1d6 + dano  
+Responsável por traçar o curso da embarcação e manter o rumo.
+
+- **Ação:** Teste de **SAB** ou **INT** contra a CD do tipo de mar.
+- **Sucesso:** Segue o curso planejado sem desvios.
+- **Falha:** Rolar `1d3` para determinar a deriva usando o *Oráculo do Navegador*:
+  - 1: Manteve o curso
+  - 2: Desviou para bombordo
+  - 3: Desviou para estibordo
+- **Falha grave:** Rolar `1d6` para direção aleatória + `1d6` de dano ao casco.
+- **Ausência:** Navegação à deriva (`1d6`).
+
+![img/oraculo-navegador.png](img/oraculo-navegador.png)
+---
 
 ### 👁️ Gajeiro
-- Teste SAB  
-- Falha → emboscada  
-- Falha grave → emboscada + dano  
+Vigia do alto do mastro, responsável por avistar perigos e oportunidades no horizonte.
+
+- **Ação:** Teste de **SAB** contra a CD do tipo de mar.
+- **Sucesso:** Nota ameaças antes delas se aproximarem do navio.
+- **Falha:** O grupo pode ser emboscado.
+- **Falha grave:** Emboscada com surpresa + `1d6` de dano ao casco.
+- **Ausência:** Não é possível avistar ameaças ou oportunidades antecipadamente.
+- **Opcional:** Dado de encontro progressivo  
+  `1d10 → 1d8 → 1d6 → 1d4`  
+  Ao tirar **1**, ocorre encontro e o dado reinicia.
+
+---
 
 ### 🎖️ Imediato
-- Teste PER/INT  
-- Sucesso → vantagem  
-- Falha crítica → desvantagem  
+Braço direito do capitão, coordena a tripulação e mantém a moral.
+
+- **Ação:** Teste de **PER** ou **INT** contra a CD do tipo de mar.
+- **Sucesso:** Concede vantagem a um membro da tripulação.
+- **Falha crítica:** Impõe desvantagem a um membro da tripulação.
+- **Ausência:** Sem coordenação adicional.
+
+---
 
 ### 🔧 Contramestre
-- Teste INT/FOR  
-- Sucesso → reparo  
-- Falha crítica → avaria  
+Cuida da integridade da embarcação e realiza reparos durante a viagem.
 
-### 🍖 Provedor
-- Teste SAB  
-- Sucesso → recursos  
-- Falha crítica → perda/contaminação  
+- **Ação:** Teste de **INT** ou **FOR** contra a CD do tipo de mar.
+- **Sucesso:** Realiza `1d6` *reparos improvisados* e mantém o navio em condições.
+- **Falha crítica:** Causa `1d6` de avaria ao casco.
+- **Ausência:** Sem reparos durante a viagem.
 
-## 2. Tipos de Mar
+> Reparos improvisados desaparecem quando ...
+---
 
-| Tipo              | CD | Encontro |
-|------------------|----|----------|
-| Costa            | 10 | 1d8 |
-| Mar Aberto       | 12 | 1d6 |
-| Traiçoeiro       | 13 | 1d6 |
-| Tempestuoso      | 14 | 1d4 |
-| Congelado        | 13 | 1d8 |
-| Calmaria         | 11 | 1d10 |
+### 🎣 Provedor
+Garante alimento e água potável para a tripulação.
 
-## 3. Condições do Mar (1d12)
+- **Ação:** Teste de **SAB** contra a CD do tipo de mar.
+- **Sucesso:** Garante recursos para 1 dia de viagem.
+- **Falha crítica:** Perda ou contaminação dos suprimentos.
+- **Ausência:** Consumo apenas de recursos armazenados.
 
-- Ventos Favoráveis → vantagem  
-- Calmaria → +1 deslocamento  
-- Corrente Forte → erro maior  
-- Névoa → +2 CD  
-- Tempestade → desvantagem + dano  
-- Mar Revolto → dano  
-- Pirataria → 2 encontros  
-- Rotas Comerciais → menos encontros  
-- Criaturas → mais perigo  
-- Água Escassa → desvantagem  
-- Casco Instável → mais dano  
-- Zona Misteriosa → eventos  
+---
 
-## 4. Deslocamento Naval
+## 2. Definir Tipo de Mar
 
-| Tipo    | Hex/dia | Efeito |
-|--------|--------|--------|
-| Lento  | 2 | vantagem |
-| Normal | 3 | padrão |
-| Rápido | 4 | desvantagem |
-| Forçado| 5 | desvantagem + avaria |
+### 🌍 Tabela de Mar
 
-## 5. Testes por Dia
+| d6 | Tipo             | CD | Encontro |
+|----|------------------|----|----------|
+| 1  | Costa            | 10 | 1d8      |
+| 2  | Mar Aberto       | 12 | 1d6      |
+| 3  | Traiçoeiro       | 13 | 1d6      |
+| 4  | Tempestuoso      | 14 | 1d4      |
+| 5  | Congelado        | 13 | 1d8      |
+| 6  | Calmaria         | 11 | 1d10     |
 
-- Manhã → Navegador  
-- Tarde → Gajeiro + Provedor  
-- Noite → Gajeiro + Contramestre  
-- Imediato → qualquer momento  
+---
 
-## 6. Integridade do Navio
+### ⚠️ Condições do Mar (1d12) - Opcional
 
-- Possui **Pontos de Casco**
-- Perde casco quando:
-  - Tempestades
-  - Falhas graves
-  - Combate
-- **0 casco → afunda**
+1. Ventos Favoráveis → vantagem em todos os testes  
+2. Calmaria → +1 HEX de deslocamento  
+3. Corrente Forte → usa `1d3` no *Oráculo do Navegador* mesmo com sucesso no teste
+4. Névoa → +2 CD em todas as funções  
+5. Tempestade → desvantagem em todos os testes + `1d6` dano ao casco  
+6. Mar Revolto → `1d6` dano ao casco por HEX  
+7. Pirataria → Aumenta chance de encontros 
+8. Rotas Comerciais → vantagem em testes do Provedor + chance de encontrar mercadores  
+9. Criaturas Marinhas → +1 CD + testa encontros 2x por HEX  
+10. Água Escassa → desvantagem nos testes do Provedor  
+11. Casco Instável → `2d6` de dano ao casco  
+12. Zona Misteriosa → eventos sobrenaturais  
 
-## 7. Eventos (sem encontro)
+---
 
-Rolar `1d6`:
+## 3. Deslocamento Naval
 
-1. Destroços  
-2. Ilha distante  
-3. Sinal de navio  
-4. Mudança climática  
-5. Criatura observando  
+| Tipo              | HEX/dia | Efeito                           |
+|-------------------|---------|----------------------------------|
+| Lento e cauteloso | 2       | Vantagem em testes               |
+| Normal            | 3       | Padrão                           |
+| Rápido            | 4       | Desvantagem em testes            |
+| Forçado           | 5       | Desvantagem + risco de avaria    |
+
+---
+
+## 4. Realize os testes de funções da tripulação por HEX diário na seguinte ordem:
+
+1. Navegador  
+2. Gajeiro
+3. Provedor
+4. Contramestre  
+
+⚠️ Imediato a qualquer momento que for necessário
+
+---
+
+## 5. Integridade do Navio
+
+O navio possui **Pontos de Casco** que representam sua resistência estrutural.
+
+- Perde pontos de casco quando:
+  - Tempestades ou mar revolto
+  - Falhas graves nos testes da tripulação (menos Provedor e Imediato)
+  - Combate naval
+- **0 pontos de casco → o navio afunda.**
+
+---
+
+| Tipo de Embarcação | Pontos de Casco | Exemplos                                |
+|--------------------|-----------------|-----------------------------------------|
+| Pequena            | 2d6 + 4         | Bote, jangada, canoa, pequeno veleiro   |
+| Média              | 4d6 + 8         | Caravela, escuna, navio mercante pequeno|
+| Grande             | 6d6 + 12        | Galeão, navio militar, cargueiro pesado |
+
+---
+
+Sempre que achar necessário, role 1d8 para definir o tipo de avaria:
+
+1. Vela rasgada → -1 HEX/dia
+2. Leme danificado → Navegação com desvantagem
+3. Vazamento → perde `1d3` pontos de casco por HEX até controle do vazamento
+4. Mastro comprometido → impossível usar deslocamento rápido
+5. Dispensa alagada → tripulação perde seus recursos
+6. Tripulação ferida → desvantagem no Imediato
+7. Estrutura instável → dano dobrado
+8. Incêndio → perde `1d3` pontos de casco por HEX até controle do incêndio
+
+---
+
+## 6. Eventos Marítimos (sem encontros no dia)
+
+Quando não há encontro no dia, rolar `1d6`:
+
+1. Destroços → itens à deriva  
+2. Ilha distante → possível exploração  
+3. Sinal de navio → amigo ou inimigo?  
+4. Mudança climática → rolar nova condição do mar  
+5. Criatura observando → tensão sem combate  
 6. Nada  
+
+---
+
+## 7. Repetição
+
+- Passos **2 e 6** → por dia  
+- Passo **4** → por HEX  
+- Ajustar integridade do navio quando necessário  
