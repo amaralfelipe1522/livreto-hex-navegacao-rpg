@@ -133,7 +133,7 @@ Rolar `1d12`.
 
 | Região Neutra              | Região Desértica                          | Região Gélida              |
 |----------------------------|-------------------------------------------|----------------------------|
-| <span style="color: red;">Ponto de partida (neutro)  | Ponto de partida (neutro)                 | Ponto de partida (neutro)  |
+| <font color="red">Ponto de partida (neutro)  | Ponto de partida (neutro)                 | Ponto de partida (neutro)  |
 | Sol entre núvens           | Calor suportável                          | Frio moderado              |
 | Chuvoso ou Tempestade (!)  | Calor intenso ou Inferno na Terra (!)     | Frio ou Frio intenso (!)   |
 | Calor ou Calor Intenso (!) | Noite fria ou Noite fria Intensa (!)      | Nevando ou Nevasca (!)     |
