@@ -129,20 +129,23 @@ Rolar `1d12`.
 
 ## 7. Clima (Flor do Tempo)
 
+A partir do HEX `azul` na Flor do Tempo (ponto de partida), defina o tipo de região (neutra, desértica ou gélida) e role `2d6` para determinar o clima conforme a tabela.
+
 ![img/flor-do-tempo.png](img/flor-do-tempo.png)
 
-| Região Neutra              | Região Desértica                          | Região Gélida              |
-|----------------------------|-------------------------------------------|----------------------------|
-| <font color="red">Ponto de partida (neutro)  | Ponto de partida (neutro)                 | Ponto de partida (neutro)  |
-| Sol entre núvens           | Calor suportável                          | Frio moderado              |
-| Chuvoso ou Tempestade (!)  | Calor intenso ou Inferno na Terra (!)     | Frio ou Frio intenso (!)   |
-| Calor ou Calor Intenso (!) | Noite fria ou Noite fria Intensa (!)      | Nevando ou Nevasca (!)     |
-| Tempestade com ventania    | Tempestade de areia                       | Tempestade de gelo         |
-| Furacão                    | Chuva de fogo                             | Avalanche                  |
+| Cor      | Região Neutra              | Região Desértica                          | Região Gélida              |
+|----------|----------------------------|-------------------------------------------|----------------------------|
+| Azul     | Ponto de partida (neutro)  | Ponto de partida (neutro)                 | Ponto de partida (neutro)  |
+| Amarelo  | Sol entre núvens           | Calor suportável                          | Frio moderado              |
+| Roxo     | Chuvoso ou Tempestade(!)   | Calor intenso ou Inferno na Terra(!)      | Frio ou Frio intenso(!)    |
+| Verde    | Calor ou Calor Intenso(!)  | Noite fria ou Noite fria Intensa(!)       | Nevando ou Nevasca(!)      |
+| Laranja  | Tempestade com ventania    | Tempestade de areia                       | Tempestade de gelo         |
+| Vermelho | Furacão                    | Chuva de fogo                             | Avalanche                  |
 
+> Fique livre para determinar o que ocorre com o grupo a cada tipo de clima.
 ---
 
-## 8. Ordem dos Testes por HEX
+## 8. Realize os testes de funções do grupo por HEX na seguinte ordem:
 
 1. Navegador  
 2. Cartógrafo  
