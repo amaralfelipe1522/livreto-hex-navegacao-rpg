@@ -42,7 +42,7 @@ Define o caminho do grupo.
 
 - **Ação:** Teste de **SAB** ou **INT**
 - **Sucesso:** Segue caminho ideal
-- **Falha:** Rolar `1d3`
+- **Falha:** Rolar `1d3` usando o *Oraculo do Navegador*:
   - 1: Correto
   - 2: Esquerda
   - 3: Direita
@@ -50,6 +50,8 @@ Define o caminho do grupo.
   1. Continuar → Usar `1d6` direções
   2. Tentar se orientar → permanece no HEX por um período, rola-se dado de encontro 2x
 - **Ausência:** Navegação aleatória (`1d6`)
+
+![img/oraculo-navegador.png](img/oraculo-navegador.png)
 
 ---
 
@@ -127,11 +129,16 @@ Rolar `1d12`.
 
 ## 7. Clima (Flor do Tempo)
 
-| Região        | Clima Progressivo |
-|--------------|------------------|
-| Neutra       | Sol → Chuva → Calor → Tempestade → Furacão |
-| Desértica    | Calor → Inferno → Noite Fria → Temp. Areia → Chuva de fogo |
-| Gélida       | Frio → Nevasca → Temp. Gelo → Avalanche |
+![img/flor-do-tempo.png](img/flor-do-tempo.png)
+
+| Região Neutra              | Região Desértica                          | Região Gélida              |
+|----------------------------|-------------------------------------------|----------------------------|
+| <span style="color: red;">Ponto de partida (neutro)  | Ponto de partida (neutro)                 | Ponto de partida (neutro)  |
+| Sol entre núvens           | Calor suportável                          | Frio moderado              |
+| Chuvoso ou Tempestade (!)  | Calor intenso ou Inferno na Terra (!)     | Frio ou Frio intenso (!)   |
+| Calor ou Calor Intenso (!) | Noite fria ou Noite fria Intensa (!)      | Nevando ou Nevasca (!)     |
+| Tempestade com ventania    | Tempestade de areia                       | Tempestade de gelo         |
+| Furacão                    | Chuva de fogo                             | Avalanche                  |
 
 ---
 
