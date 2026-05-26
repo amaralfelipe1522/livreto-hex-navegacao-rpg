@@ -14,7 +14,7 @@ Responsável por traçar o curso da embarcação e manter o rumo.
 - **Falha grave:** Rolar `1d6` para direção aleatória + `1d6` de dano ao casco.
 - **Ausência:** Navegação à deriva (`1d6`).
 
-![../img/oraculo-navegador.png](../img/oraculo-navegador.png)
+![oraculo-navegador.png](img/oraculo-navegador.png)
 ---
 
 ### 👁️ Gajeiro

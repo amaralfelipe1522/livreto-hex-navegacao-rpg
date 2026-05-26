@@ -53,7 +53,7 @@ Define o caminho do grupo.
   2. Tentar se orientar → permanece no HEX por um período, rola-se dado de encontro 2x
 - **Ausência:** Navegação aleatória (`1d6`)
 
-![../img/oraculo-navegador.png](../img/oraculo-navegador.png)
+![oraculo-navegador.png](img/oraculo-navegador.png)
 
 ---
 
@@ -133,7 +133,7 @@ Rolar `1d12`.
 
 A partir do HEX `azul` na Flor do Tempo (ponto de partida), defina o tipo de região (neutra, desértica ou gélida) e role `2d6` para determinar o clima conforme a tabela.
 
-![../img/flor-do-tempo.png](../img/flor-do-tempo.png)
+![flor-do-tempo.png](img/flor-do-tempo.png)
 
 | Cor      | Região Neutra              | Região Desértica                          | Região Gélida              |
 |----------|----------------------------|-------------------------------------------|----------------------------|
