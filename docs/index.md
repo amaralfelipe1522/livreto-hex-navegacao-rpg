@@ -1,4 +1,4 @@
-# 🎲 Livreto de Navegação Hex para RPG
+# 🎲 Livreto de Exploração em Hexagonos | Ermos & Mares
 
 Um guia simples e agnóstico de sistema para exploração de ermos e mares em RPG de mesa, utilizando navegação hexagonal.
 
