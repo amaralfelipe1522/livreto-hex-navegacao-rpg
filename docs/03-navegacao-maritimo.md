@@ -1,4 +1,4 @@
-# 🌊 Sistema de Navegação pelos Mares
+# 🌊 Sistema de Exploração pelos Mares
 
 ## 1. Definir as Funções da Tripulação
 
