@@ -1,4 +1,4 @@
-# 🧭 Sistema de Navegação pelos Ermos
+# 🧭 Sistema de Exploração pelos Ermos
 
 ## 1. Definir as Funções de Cada Jogador
 
