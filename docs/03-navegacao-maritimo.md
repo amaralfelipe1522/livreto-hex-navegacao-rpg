@@ -49,7 +49,7 @@ Cuida da integridade da embarcação e realiza reparos durante a viagem.
 - **Falha crítica:** Causa `1d6` de avaria ao casco.
 - **Ausência:** Sem reparos durante a viagem.
 
-> Reparos improvisados desaparecem quando ...
+> Reparos improvisados desaparecem no fim do dia. Reparos definitivos ocorrem apenas em portos.
 ---
 
 ### 🎣 Provedor
@@ -57,7 +57,7 @@ Garante alimento e água potável para a tripulação.
 
 - **Ação:** Teste de **SAB** contra a CD do tipo de mar.
 - **Sucesso:** Garante recursos para 1 dia de viagem.
-- **Falha crítica:** Perda ou contaminação dos suprimentos.
+- **Falha:** Role `1d6`. Em um resultado 1–3 ocorre uma consequência, em 4–5 um evento e com 6 nada acontece.
 - **Ausência:** Consumo apenas de recursos armazenados.
 
 ---
@@ -80,14 +80,14 @@ Garante alimento e água potável para a tripulação.
 ### ⚠️ Condições do Mar (1d12) - Opcional
 
 1. Ventos Favoráveis → vantagem em todos os testes  
-2. Calmaria → +1 HEX de deslocamento  
+2. Calmaria → +1 HEX de deslocamento diário
 3. Corrente Forte → usa `1d3` no *Oráculo do Navegador* mesmo com sucesso no teste
 4. Névoa → +2 CD em todas as funções  
-5. Tempestade → desvantagem em todos os testes + `1d6` dano ao casco  
+5. Tempestade → desvantagem em todos os testes + `1d6` dano ao casco por HEX 
 6. Mar Revolto → `1d6` dano ao casco por HEX  
-7. Pirataria → Aumenta chance de encontros 
+7. Pirataria → Aumenta chance de encontros com piratas
 8. Rotas Comerciais → vantagem em testes do Provedor + chance de encontrar mercadores  
-9. Criaturas Marinhas → +1 CD + testa encontros 2x por HEX  
+9. Criaturas Marinhas → aumenta chance de encontros com criaturas 
 10. Água Escassa → desvantagem nos testes do Provedor  
 11. Casco Instável → `2d6` de dano ao casco  
 12. Zona Misteriosa → eventos sobrenaturais  
@@ -98,9 +98,9 @@ Garante alimento e água potável para a tripulação.
 
 | Tipo              | HEX/dia | Efeito                           |
 |-------------------|---------|----------------------------------|
-| Lento e cauteloso | 2       | Vantagem em testes               |
+| Lento e cauteloso | 2       | Vantagem em todos os testes      |
 | Normal            | 3       | Padrão                           |
-| Rápido            | 4       | Desvantagem em testes            |
+| Rápido            | 4       | Desvantagem em todos os testes   |
 | Forçado           | 5       | Desvantagem + risco de avaria    |
 
 ---
@@ -112,7 +112,7 @@ Garante alimento e água potável para a tripulação.
 3. Provedor
 4. Contramestre  
 
-⚠️ Imediato a qualquer momento que for necessário
+⚠️ A função de Imediato pode ser testada a qualquer momento que for necessário
 
 ---
 
@@ -139,11 +139,11 @@ O navio possui **Pontos de Casco** que representam sua resistência estrutural.
 Sempre que achar necessário, role 1d8 para definir o tipo de avaria:
 
 1. Vela rasgada → -1 HEX/dia
-2. Leme danificado → Navegação com desvantagem
+2. Leme danificado → Navegador com desvantagem nos testes
 3. Vazamento → perde `1d3` pontos de casco por HEX até controle do vazamento
 4. Mastro comprometido → impossível usar deslocamento rápido
 5. Dispensa alagada → tripulação perde seus recursos
-6. Tripulação ferida → desvantagem no Imediato
+6. Tripulação ferida → Imediato com desvantagem nos testes
 7. Estrutura instável → dano dobrado
 8. Incêndio → perde `1d3` pontos de casco por HEX até controle do incêndio
 
