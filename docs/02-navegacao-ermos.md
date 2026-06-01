@@ -171,6 +171,7 @@ Função apenas em acampamentos.
 ### 🍖 Consumir suprimentos
 Cada jogador deve consumir sua porção diária de suprimentos.
 O jogador que não se alimentar no acampamento terá a seguinte penalidade por dia:
+
 - 1º dia → recupera metade dos PV no descanso e sofre +1 CD em todos os testes.
 
 - 2º dia consecutivo → não recupera PV no descanso e sofre +2 CD em todos os testes.

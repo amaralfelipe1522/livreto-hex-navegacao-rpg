@@ -164,8 +164,33 @@ Quando não há encontro no dia, rolar `1d6`:
 
 ---
 
-## 7. Repetição
+## 7. 🌙 Rotina Noturna
 
-- Passos **2 e 6** → por dia  
+Ao final de cada dia de navegação, execute os seguintes passos:
+
+### 👁️ Vigília Noturna
+
+- Quem está de vigília recupera apenas `1d3` de vida
+- O restante do grupo recupera `1d6` de vida
+- **Ação:** Teste de SAB ou INT para notar perigos
+- **Falha:** Grupo pode ser surpreendido
+
+### 🍖 Consumir suprimentos
+Cada jogador deve consumir sua porção diária de suprimentos.
+O jogador que não se alimentar terá a seguinte penalidade por dia:
+
+- 1º dia → recupera metade dos PV no descanso e sofre +1 CD em todos os testes.
+
+- 2º dia consecutivo → não recupera PV no descanso e sofre +2 CD em todos os testes.
+
+- 3º dia consecutivo → não recupera PV no descanso e desvantagem em todos os testes.
+
+- 4º dia consecutivo → o personagem desmaia e permanece incapacitado até consumir uma porção de suprimentos e concluir um descanso.
+
+---
+
+## 8. Repetição
+
+- Passos **2, 6 e 7** → por dia  
 - Passo **4** → por HEX  
 - Ajustar integridade do navio quando necessário  
