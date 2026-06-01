@@ -8,7 +8,7 @@ Responsável por avançar à frente do grupo e identificar ameaças.
 - **Ação:** Teste de **SAB** ou **AGI** contra a CD do ambiente a cada HEX.
 - **Sucesso:** Nota ameaças antes delas perceberem o grupo.
 - **Ausência:** Não é possível emboscar ou evitar ameaças.
-- **Opcional:** Dado de encontro progressivo  
+- **Opcional:** Rolar dado de encontro progressivo  
   `1d10 → 1d8 → 1d6 → 1d4`  
   Ao tirar **1**, ocorre encontro e o dado reinicia.
 
@@ -18,7 +18,8 @@ Responsável por avançar à frente do grupo e identificar ameaças.
 Garante alimento e água durante a jornada.
 
 - **Ação:** Teste de **SAB** contra CD do ambiente.
-- **Sucesso:** Garante recursos para 1 dia.
+- **Sucesso:** Garante recursos de um personagem para 1 dia.
+- **Falha:** Role `1d6`. Em um resultado 1–3 ocorre uma consequência, em 4–5 um evento e com 6 nada acontece.
 - **Ausência:** Consumo apenas de recursos próprios.
 
 ---
@@ -27,14 +28,14 @@ Garante alimento e água durante a jornada.
 Registra o mapa da região.
 
 - **Ação:** Teste de **INT** contra CD do ambiente.
-- **Sucesso:** Área mapeada → vantagem em testes futuros.
-- **Extra:** Rolar `1d6`
-  - 1–3: Nada
+- **Sucesso:** O HEX é cartografado. Testes realizados em HEXs cartografados são feitos com vantagem. Para facilitar a visualização do mapa, marque deslocamentos por HEXs não cartografados com linhas tracejadas e deslocamentos por HEXs cartografados com linhas contínuas.
+- **Extra:** Rolar `1d6` independente de Sucesso ou Falha sendo:
+  - 1–3: Nada acontece
   - 4: Avistamento
   - 5: Vestígios
   - 6: Marcos
   
-  Fique livre para usar uma tabela ou definir puramente com improviso os avistamentos, vestígios e marcos.
+  Fique livre para usar uma tabela ou definir puramente com improviso os avistamentos, vestígios e marcos notados pelo Cartógrafo.
 - **Ausência:** Sem bônus por exploração prévia.
 
 ---
@@ -43,15 +44,15 @@ Registra o mapa da região.
 Define o caminho do grupo.
 
 - **Ação:** Teste de **SAB** ou **INT**
-- **Sucesso:** Segue caminho ideal
+- **Sucesso:** Segue caminho ideal para o próximo HEX
 - **Falha:** Rolar `1d3` usando o *Oraculo do Navegador*:
-  - 1: Correto
-  - 2: Esquerda
-  - 3: Direita
-- **3 falhas no dia:**
-  1. Continuar → Usar `1d6` direções
-  2. Tentar se orientar → permanece no HEX por um período, rola-se dado de encontro 2x
-- **Ausência:** Navegação aleatória (`1d6`)
+  - 1: Melhor caminho para o próximo HEX
+  - 2: Esquerda do melhor caminho
+  - 3: Direita do melhor caminho
+- **Quando tiver 2 falhas sequênciais:**
+  1. Continuar a navegar → Usar `1d6` para determinar as direções com *Oraculo do Navegador*
+  2. Tentar se orientar → permanece no HEX por um período e rola-se dado de encontro 2x
+- **Ausência:** Navegação aleatória (`1d6`) com o *Oraculo do Navegador*
 
 ![oraculo-navegador.png](img/oraculo-navegador.png)
 
@@ -89,33 +90,33 @@ Estabeleça rotas entre origem e destino.
 
 ### ⚠️ Características Extras (1d12)
 
-1. Abundante → Caça automática  
-2. Altitude Elevada → desvantagem  
+1. Abundante → Sucesso automático em teste de Caçador ou Coletor
+2. Altitude Elevada → desvantagem em todos os testes de funções
 3. Magia Caótica → Toda tentativa de magia pode gerar uma consequência, mesmo que apenas narrativa
-4. Água Poluída → envenenamento  
-5. Baixa Visibilidade → +2 CD em todas as funções
-6. Caminho Confuso → +2 CD Navegação  
-7. Campo de Batalha → +1 CD + encontros extras  
-8. Estrada de Mercadores → vantagem + caravanas  
-9. Gases Venenosos → 1d4 dano por HEX  
-10. Suga-vida → cura reduzida  
-11. Terreno Acidentado → 1d4 dano por falha  
-12. Terreno Infértil → +3 CD Coletor
+4. Água Poluída → envenenamento se beber a água
+5. Baixa Visibilidade → +2 CD em testes de todas as funções
+6. Caminho Confuso → +2 CD em testes do Navegador  
+7. Campo de Batalha → chance de encontro extra
+8. Estrada de Mercadores → Role `1d6`, para 1-3 encontra caravana de viajantes, 4-6 encontra mercadores
+9. Gases Venenosos → `1d4` dano por HEX
+10. Suga-vida → cura (por itens ou magia) ou recuperação durante descanso é reduzida (fique livre pra determinar a taxa de redução)
+11. Terreno Acidentado → `1d4` dano por falha nos testes de todas as funções
+12. Terreno Infértil → +3 CD nos testes do Caçador ou Coletor
 
 ---
 
-## 4. Deslocamento e Sobrecarga
+## 4. Deslocamento diário X Sobrecarga
 
 | Tipo                  | Leve | Médio | Alto | Extremo |
 |----------------------|------|------|------|--------|
-| Lento e cuidadoso*   | 15 km | 10 km | 5 km | 0 km |
+| Lento e cuidadoso*   | 15 km | 10 km | 5 km | 2,5 km |
 | A pé                 | 25 km | 20 km | 15 km | 5 km |
 | Montaria             | 35 km | 30 km | 20 km | 10 km*** |
 | Galopando**          | 70 km | 50 km | 30 km | 10 km*** |
 
-- *Vantagem em testes
-- **Desvantagem em testes
-- ***Teste de desmaio da montaria (1d6)
+- *Vantagem em testes de todas as funções
+- **Desvantagem em testes de todas as funções
+- ***Role `1d6` a cada HEX, caso tire 1-2 a montaria desmaia
 
 ---
 
@@ -154,7 +155,7 @@ A partir do HEX `azul` na Flor do Tempo (ponto de partida), defina o tipo de reg
 3. Batedor  
 4. Caçador/Coletor  
 
-⚠️ Suporte a qualquer momento que for necessário
+⚠️ A função de Suporte pode ser testada a qualquer momento que for necessário
 
 ---
 
@@ -162,10 +163,21 @@ A partir do HEX `azul` na Flor do Tempo (ponto de partida), defina o tipo de reg
 
 ### 👁️ Vigia
 Função apenas em acampamentos.
-- Recupera apenas `1d3`
-- Grupo recupera `1d6`
+- Quem está de vigia recupera apenas `1d3` de vida
+- O restante do grupo recupera `1d6` de vida
 - **Ação:** Teste de SAB ou INT para notar perigos
 - **Falha:** Grupo pode ser surpreendido
+
+### 🍖 Consumir suprimentos
+Cada jogador deve consumir sua porção diária de suprimentos.
+O jogador que não se alimentar no acampamento terá a seguinte penalidade por dia:
+- 1º dia → recupera metade dos PV no descanso e sofre +1 CD em todos os testes.
+
+- 2º dia consecutivo → não recupera PV no descanso e sofre +2 CD em todos os testes.
+
+- 3º dia consecutivo → não recupera PV no descanso e desvantagem em todos os testes.
+
+- 4º dia consecutivo → o personagem desmaia e permanece incapacitado até consumir uma porção de suprimentos e concluir um descanso.
 
 ---
 
