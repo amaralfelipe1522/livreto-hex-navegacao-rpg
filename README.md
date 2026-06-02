@@ -2,11 +2,24 @@
 
 Guia simples e agnóstico de sistema para exploração de ermos e mares em RPG de mesa, utilizando navegação hexagonal.
 
-📖 **Leia o livreto completo:** [GitHub Pages](https://amaralfelipe1522.github.io/livreto-hex-navegacao-rpg/)
+📖 **Leia o livreto completo:** 
+
+**Via Github Pages** → [GitHub Pages](https://amaralfelipe1522.github.io/livreto-hex-navegacao-rpg/)
+
+**Através do MKDocs** →
+```bash
+# Documentação oficial: https://www.mkdocs.org/user-guide/installation/
+
+# Baixar e instalar
+pip install mkdocs
+
+# Iniciar a leitura no navegador
+mkdocs serve
+```
 
 ## Sobre
 
-Este projeto reúne mecânicas modulares de navegação hexagonal pensadas para qualquer sistema de RPG de mesa. A ideia é oferecer ferramentas práticas para o mestre que quer tornar viagens por terra ou mar mais interessantes — com funções para os jogadores, tabelas de terreno, clima, eventos e mais.
+Este projeto reúne mecânicas modulares de navegação hexagonal pensadas para qualquer sistema de RPG de mesa. A ideia é oferecer ferramentas práticas para o mestre ou jogador solo que quer tornar viagens por terra ou mar mais interessantes — com funções para os jogadores, tabelas de terreno, clima, eventos e mais.
 
 ## Conteúdo
 

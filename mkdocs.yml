@@ -1,0 +1,6 @@
+site_name: Exploração em Hexagonos | Ermos & Mares
+
+nav:
+  - Início: index.md
+  - Capítulo 1: 02-navegacao-ermos.md
+  - Capítulo 2: 03-navegacao-maritimo.md
