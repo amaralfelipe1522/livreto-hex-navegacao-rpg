@@ -37,3 +37,16 @@ As mecânicas usam apenas dados comuns (d4, d6, d8, d10, d12) e testes contra CD
 ## Contribuindo
 
 Sugestões, correções e novas ideias são bem-vindas! Abra uma [issue](https://github.com/amaralfelipe1522/livreto-hex-navegacao-rpg/issues) ou envie um pull request.
+
+## Exportando para PDF (PROVISÓRIO)
+
+```bash
+sudo apt install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-latex-extra
+sudo apt install -y texlive-xetex texlive-fonts-recommended texlive-lang-portuguese
+
+pandoc livreto.md docs/index.md docs/02-navegacao-ermos.md docs/03-navegacao-maritimo.md \
+  -o livreto.pdf \
+  --resource-path=docs \
+  --pdf-engine=xelatex \
+  --lua-filter=remove-emojis.lua
+```
