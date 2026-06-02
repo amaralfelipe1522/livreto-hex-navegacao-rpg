@@ -42,14 +42,14 @@ Braço direito do capitão, coordena a tripulação e mantém a moral.
 ---
 
 ### 🔧 Contramestre
-Cuida da integridade da embarcação e realiza reparos durante a viagem.
+Cuida da integridade da embarcação e realiza *reparos improvisados* durante a viagem.
+Reparos improvisados desaparecem no fim do dia. Reparos definitivos ocorrem apenas em portos.
 
 - **Ação:** Teste de **INT** ou **FOR** contra a CD do tipo de mar.
 - **Sucesso:** Realiza `1d6` *reparos improvisados* e mantém o navio em condições.
 - **Falha crítica:** Causa `1d6` de avaria ao casco.
 - **Ausência:** Sem reparos durante a viagem.
 
-> Reparos improvisados desaparecem no fim do dia. Reparos definitivos ocorrem apenas em portos.
 ---
 
 ### 🎣 Provedor
@@ -147,7 +147,7 @@ Sempre que achar necessário, role 1d8 para definir o tipo de avaria:
 7. Estrutura instável → dano dobrado
 8. Incêndio → perde `1d3` pontos de casco por HEX até controle do incêndio
 
-> Obs.: Dependendo do tipo de embarcação, nem todas as possibilidades acima irão fazer sentido, portanto, use essa tabela para te inspirar a criar novas situações.
+Dependendo do tipo de embarcação, nem todas as possibilidades acima irão fazer sentido, portanto, use essa tabela para te inspirar a criar novas situações.
 
 ---
 
